@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import { GifsList } from '../../components/gifs-list/gifs-list';
 
 @Component({
   selector: 'app-trending',
-  imports: [],
+  imports: [
+    GifsList
+  ],
   templateUrl: './trending.html',
   styleUrl: './trending.css',
 })
